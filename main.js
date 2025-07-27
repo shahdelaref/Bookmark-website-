@@ -53,8 +53,6 @@ window.deleteSite = function(index) {
   localStorage.setItem('sites', JSON.stringify(sites));
   displaySites();
 };
-
-// مسح الحقول
 function clearForm() {
   siteNameInput.value = '';
   siteUrlInput.value = '';
